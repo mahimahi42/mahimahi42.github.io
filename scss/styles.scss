@@ -33,17 +33,17 @@ $web-fonts: Helvetica, Arial, sans-serif;
                 li {
                     display: block;
                     list-style-type: none;
-                    padding-top: 20px;
-                    padding-bottom: 20px;
-                    margin-right: 30px;
-                    margin-top: 10px;
-                    border-top: 1px solid black;
 
                     a {
                         font-family: "Playfair Display SC", $web-fonts;
                         font-size: 1.5em;
                         text-decoration: none;
                         color: black;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                        margin-right: 30px;
+                        margin-top: 10px;
+                        border-top: 1px solid black;
                     }
                 }
 
@@ -112,18 +112,19 @@ $web-fonts: Helvetica, Arial, sans-serif;
         nav#nav {
             ul {
                 li {
-                    width: 200px;
                     float: left;
-                    padding: 10px 25px 10px 10px;
                     border-right: 1px solid black;
                     list-style-type: none;
                     display: block;
                     text-align: center;
 
                     a {
+                        width: 200px;
+                        padding: 10px 25px 10px 10px;
                         text-decoration: none;
                         font-family: "Playfair Display SC", $web-fonts;
                         color: black;
+                        display: block;
                     }
                 }
 
