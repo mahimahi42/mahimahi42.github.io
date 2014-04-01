@@ -88,6 +88,15 @@ body {
             max-width: 900px;
             font-family: "Open Sans", $web-fonts;
         }
+
+        ul#contact-list {
+            li {
+                list-style-type: none;
+                font-family: "Open Sans", $web-fonts;
+                font-size: 1.5em;
+                line-height: 2.5em;
+            }
+        }
     }
 }
 

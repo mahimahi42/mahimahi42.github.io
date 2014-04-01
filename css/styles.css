@@ -55,6 +55,11 @@ body {
     .container div#content p {
       max-width: 900px;
       font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+    .container div#content ul#contact-list li {
+      list-style-type: none;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      font-size: 1.5em;
+      line-height: 2.5em; }
 
 footer {
   position: relative;
