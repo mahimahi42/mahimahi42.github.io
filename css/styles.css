@@ -9,15 +9,9 @@ body {
   background-color: #dddddd;
   margin: auto; }
   .container div#title {
-    width: 480px;
+    max-width: 940px;
     margin: auto;
-    padding-top: 75px;
-    text-align: center; }
-    .container div#title h1 {
-      font-family: 'Yellowtail', Helvetica, Arial, sans-serif; }
-  .container div#content {
-    width: inherit;
     padding-top: 25px;
     text-align: center; }
-    .container div#content p {
+    .container div#title h1 {
       font-family: Helvetica, Arial, sans-serif; }

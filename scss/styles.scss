@@ -15,22 +15,12 @@ body {
     margin: auto;
 
     div#title {
-        width: 480px;
+        max-width: 940px;
         margin: auto;
-        padding-top: 75px;
-        text-align: center;
-
-        h1 {
-            font-family: 'Yellowtail', Helvetica, Arial, sans-serif;
-        }
-    }
-
-    div#content {
-        width: inherit;
         padding-top: 25px;
         text-align: center;
 
-        p {
+        h1 {
             font-family: Helvetica, Arial, sans-serif;
         }
     }
