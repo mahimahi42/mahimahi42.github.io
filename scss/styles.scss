@@ -24,4 +24,42 @@ body {
             font-family: "Diplomata", Helvetica, Arial, sans-serif;
         }
     }
+
+    nav#nav {
+        ul {
+            li {
+                list-style-type: none;
+                display: block;
+                width: 200px;
+                text-align: center;
+                float: left;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 25px;
+                padding-left: 10px;
+                border-right: 1px solid black;
+
+                a {
+                    text-decoration: none;
+                    font-family: "Playfair Display SC", Helvetica, Arial, sans-serif;
+                    color: black;
+                }
+            }
+
+            li:first-child {
+                padding-left: 25px;
+                width: 150px;
+            }
+
+            li:last-child {
+                border-right: none;
+                width: 150px;
+                padding-left: 15px;
+            }
+
+            li:hover {
+                background-color: #EEE;
+            }
+        }
+    }
 }
