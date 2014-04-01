@@ -61,6 +61,15 @@ $web-fonts: Helvetica, Arial, sans-serif;
             p {
                 font-family: "Open Sans", $web-fonts;
             }
+
+            ul#contact-list {
+                li {
+                    list-style-type: none;
+                    font-family: "Open Sans", $web-fonts;
+                    font-size: 1.5em;
+                    line-height: 2.5em;
+                }
+            }
         }
     }
 
