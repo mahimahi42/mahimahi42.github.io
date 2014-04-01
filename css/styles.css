@@ -12,17 +12,17 @@
         font-family: "Diplomata", Helvetica, Arial, sans-serif; }
     .container nav#nav ul li {
       display: block;
-      list-style-type: none; }
+      list-style-type: none;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-right: 30px;
+      margin-top: 10px;
+      border-top: 1px solid black; }
       .container nav#nav ul li a {
         font-family: "Playfair Display SC", Helvetica, Arial, sans-serif;
         font-size: 1.5em;
         text-decoration: none;
-        color: black;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-right: 30px;
-        margin-top: 10px;
-        border-top: 1px solid black; }
+        color: black; }
     .container nav#nav ul li:first-child {
       border-top: none; }
     .container div#content img {
@@ -77,12 +77,12 @@
         color: black;
         display: block; }
     .container nav#nav ul li:first-child {
-      padding-left: 25px;
+      padding-right: 50px;
       width: 150px; }
     .container nav#nav ul li:last-child {
       border-right: none;
       width: 150px;
-      padding-left: 25px; }
+      padding-right: 45px; }
     .container nav#nav ul li:hover {
       background-color: #EEE; }
     .container div#content {
