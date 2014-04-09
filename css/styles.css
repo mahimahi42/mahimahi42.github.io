@@ -27,7 +27,7 @@
       border-top: none; }
     .container div#content img {
       display: none; }
-    .container div#content p {
+    .container div#content span, .container div#content p {
       font-family: "Open Sans", Helvetica, Arial, sans-serif; }
     .container div#content ul#contact-list li {
       list-style-type: none;
@@ -95,7 +95,7 @@
         -webkit-box-shadow: -6px 8px 5px 0px rgba(50, 50, 50, 0.75);
         -moz-box-shadow: -6px 8px 5px 0px rgba(50, 50, 50, 0.75);
         box-shadow: -6px 8px 5px 0px rgba(50, 50, 50, 0.75); }
-      .container div#content p {
+      .container div#content span, .container div#content p {
         max-width: 900px;
         font-family: "Open Sans", Helvetica, Arial, sans-serif; }
       .container div#content ul#contact-list li {
