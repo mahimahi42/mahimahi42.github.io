@@ -38,6 +38,7 @@
       margin-right: 20px; }
 
   footer {
+    background-color: #333333;
     font-family: "Open Sans", Helvetica, Arial, sans-serif; } }
 @media (min-width: 960px) {
   html, body, .container {
@@ -109,7 +110,8 @@
     margin: -100px auto;
     height: 100px;
     clear: both;
-    width: 940px; }
+    width: 940px;
+    background-color: #333333; }
     footer p {
       line-height: 1.5em;
       font-family: "Open Sans", Helvetica, Arial, sans-serif; } }

@@ -76,6 +76,7 @@ $web-fonts: Helvetica, Arial, sans-serif;
     }
 
     footer {
+        background-color: $bg-color;
         font-family: "Open Sans", $web-fonts;
     }
 }
@@ -182,6 +183,7 @@ $web-fonts: Helvetica, Arial, sans-serif;
             line-height: 1.5em;
             font-family: "Open Sans", $web-fonts;
         }
+        background-color: $bg-color;
     }
 }
 
