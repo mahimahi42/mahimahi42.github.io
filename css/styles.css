@@ -104,6 +104,8 @@
         font-family: "Open Sans", Helvetica, Arial, sans-serif;
         font-size: 1.5em;
         line-height: 2.5em; }
+      .container div#content object {
+        margin-bottom: 20px; }
 
   footer {
     position: relative;
