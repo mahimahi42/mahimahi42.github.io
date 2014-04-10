@@ -82,10 +82,6 @@ $web-fonts: Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 960px) {
-    html, body, .container {
-        height: $MAX;
-    }
-
     body {
         background-color: $bg-color;
     }
@@ -96,7 +92,6 @@ $web-fonts: Helvetica, Arial, sans-serif;
         background-color: $container-color;
         @include box-shadow(0px, 10px, 15px, 0px, 50, 50, 50, 0.75);
         margin: auto;
-        overflow: hidden;
         padding-bottom: 100px;
 
         div#title {
@@ -174,20 +169,22 @@ $web-fonts: Helvetica, Arial, sans-serif;
             object {
                 margin-bottom: 20px;
             }
-        }
-    }
 
-    footer {
-        position: relative;
-        margin: -100px auto;
-        height: 80px;
-        clear: both;
-        width: $INNER_WIDTH;
-        p {
-            line-height: 1.5em;
-            font-family: "Open Sans", $web-fonts;
+            padding-bottom: 80px;
         }
-        background-color: $container-color;
+
+        footer {
+            position: relative;
+            margin: auto;
+            height: 30px;
+            clear: both;
+            width: $INNER_WIDTH;
+            p {
+                line-height: 1.5em;
+                font-family: "Open Sans", $web-fonts;
+            }
+            background-color: $container-color;
+        }
     }
 }
 
