@@ -115,8 +115,8 @@ $web-fonts: Helvetica, Arial, sans-serif;
                     text-align: center;
 
                     a {
-                        width: 200px;
-                        padding: 10px 25px 10px 10px;
+                        width: 130px;
+                        padding: 10px 25px 10px 20px;
                         text-decoration: none;
                         font-family: "Playfair Display SC", $web-fonts;
                         color: black;
@@ -125,14 +125,14 @@ $web-fonts: Helvetica, Arial, sans-serif;
                 }
 
                 li:first-child {
-                    padding-right: 50px;
-                    width: 150px;
+                    padding-right: 40px;
+                    width: 130px;
                 }
 
                 li:last-child {
                     border-right: none;
-                    width: 150px;
-                    padding-right: 45px;
+                    width: 130px;
+                    padding-right: 40px;
                 }
 
                 li:hover {

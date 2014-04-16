@@ -67,19 +67,19 @@
       display: block;
       text-align: center; }
       .container nav#nav ul li a {
-        width: 200px;
-        padding: 10px 25px 10px 10px;
+        width: 130px;
+        padding: 10px 25px 10px 20px;
         text-decoration: none;
         font-family: "Playfair Display SC", Helvetica, Arial, sans-serif;
         color: black;
         display: block; }
     .container nav#nav ul li:first-child {
-      padding-right: 50px;
-      width: 150px; }
+      padding-right: 40px;
+      width: 130px; }
     .container nav#nav ul li:last-child {
       border-right: none;
-      width: 150px;
-      padding-right: 45px; }
+      width: 130px;
+      padding-right: 40px; }
     .container nav#nav ul li:hover {
       background-color: #EEE; }
     .container div#content {
